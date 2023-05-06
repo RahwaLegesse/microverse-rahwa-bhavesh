@@ -7,7 +7,57 @@
   </head>
 
   <body>
-      <p>hello world! we are software developers!</p>
+   <h1 id="title">microverse feedback form</h1>
+   <p id="description">Please fill up the details in the form below</p>
+   
+   <form id="survey-form">
+    <label for="name" id="name-label">name</label><br>
+    <input type="text"id="name" placeholder="bhavesh" required><br>
+    <label for="email"id="email-label">email</label><br>
+<input type="email" id="email"placeholder="bhavesh117@gmail.com" required><br>
+<label for="number"id="number-label">age</label><br>
+<input type="number"id="number" placeholder="20" min="18" max="100"><br>
+<div>
+<label for="dropdown">Do you reccommend the programs to other learnes?:</label><br>
+  
+<select id="dropdown">
+   
+    <option value="definitely">definitely</option>
+    <option value="maybe">maybe</option>
+      <option value="not sure">not sure</option>
+      
+   </select>
+   
+   </div>
+   <p>How was your mentor?</p>
+  <input type="radio" id="amazing" name="rating" >
+  <label for="amazing">Amazing</label><br>
+  <input type="radio" id="good" name="rating">
+  <label for="Good">Good</label><br>
+  <input type="radio" id="mehh" name="rating">
+  <label for="mehh">Mehh!</label><br>
+  
+  <p>What projects did you do in the program?</p>
+  <input type="checkbox" id="ft" name="projects" value="frontend">
+  <label for="ft">Front-end</label><br>
+  <input type="checkbox" id="be" name="projects" value="backend">
+  <label for="be">backend</label><br>
+  <input type="checkbox" id="fs" name="projects" value="fullstack">
+  <label for="fs">Full stack</label><br>
+  <label for="message">Tell us more:</label>
+  <textarea id="message" name="message"></textarea> <br>
+  <button type="submit" id ="submit">submit</button>
+</form>
+    
+
+
+
+
+
+
+
+
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     
