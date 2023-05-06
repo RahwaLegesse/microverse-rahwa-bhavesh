@@ -30,3 +30,30 @@ body {
     align-items: center;
     height: 100vh;
 }
+textarea{
+  width: 400px;
+  height: 150px;
+}
+
+#submit{
+  padding: 6px 15px 6px 13px;
+  background-color: bisque;
+  font-size: 20px;
+  cursor: pointer;
+}
+#submit:hover{
+  opacity: .8;
+}
+
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+}
+
+main {
+  margin: auto;
+}
+
+
